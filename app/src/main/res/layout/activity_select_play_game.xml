@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_select_play_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hoaiutc95.doan.SelectPlayGame">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:background="@drawable/mainbgold"
+        android:scaleType="centerCrop"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_marginTop="10dp"
+        android:layout_width="50dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/button_click"
+        android:layout_height="50dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_height="wrap_content">
+        <GridView
+            android:numColumns="2"
+            android:columnWidth="90dp"
+            android:id="@+id/grdCategories"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="50dp"
+            android:layout_width="250dp"
+            android:layout_height="350dp">
+        </GridView>
+    </RelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout03"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pair_bgr"
+    tools:context="com.hoaiutc95.doan.MemoryMatchActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/button_click"
+            android:layout_height="50dp" />
+        <Button
+            android:layout_width="50dp"
+            android:background="@drawable/btn_catagory"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnCatagories"
+            android:layout_marginRight="20dp"
+            android:layout_height="50dp" />
+        <Button
+            android:id="@+id/btnSound"
+            android:layout_width="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btnCatagories"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_sound_on"
+            android:layout_height="50dp" />
+
+    </RelativeLayout>
+
+
+    <TableRow
+        android:id="@+id/TableRow04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <TableRow
+        android:id="@+id/TableRow02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <TableRow
+        android:id="@+id/TableRow03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+    </TableRow>
+
+</TableLayout>

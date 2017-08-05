@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_doan_chu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backnen"
+    tools:context="com.hoaiutc95.doan.DoanChuActivity">
+    
+    <RelativeLayout
+        android:id="@+id/llContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:background="@drawable/btn_home"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+      />
+    
+    <Button
+        android:id="@+id/btnDapAn"
+        android:layout_width="60dp"
+        android:background="@drawable/ic_hoa_xanh"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="60dp" />
+
+</RelativeLayout>

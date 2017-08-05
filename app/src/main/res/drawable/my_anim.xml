@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false"
+    >
+    <item android:duration="200" android:drawable="@drawable/chim1" />
+    <item android:duration="200" android:drawable="@drawable/chim2" />
+    <item android:duration="200" android:drawable="@drawable/chim3" />
+    <item android:duration="200" android:drawable="@drawable/chim4" />
+    <item android:duration="200" android:drawable="@drawable/chim5" />
+    <item android:duration="200" android:drawable="@drawable/chim6" />
+    <item android:duration="200" android:drawable="@drawable/chim7" />
+    <item android:duration="200" android:drawable="@drawable/chim8" />
+    <item android:duration="200" android:drawable="@drawable/chim9" />
+    <item android:duration="200" android:drawable="@drawable/chim10" />
+
+</animation-list>

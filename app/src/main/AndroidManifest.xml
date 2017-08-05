@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hoaiutc95.doan">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".SelectPlayGame">
+
+        </activity>
+        <activity android:name=".About_Learning" />
+        <activity
+            android:name=".BeTapViet"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+        </activity>
+        <activity android:name=".Home_BeTapViet" />
+        <activity android:name=".Game_Home">
+
+        </activity>
+
+        <activity android:name=".MemoryMatchActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+             android:screenOrientation="landscape"
+            />
+
+        <activity
+            android:name=".DoanChuFragmentActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
